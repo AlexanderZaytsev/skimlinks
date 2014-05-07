@@ -33,8 +33,6 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'gem_config', '~> 0.0.2'
   gem.add_runtime_dependency 'mechanize', '~> 2.5'
   gem.add_runtime_dependency 'rest-client', '~> 1.6.7'
-  gem.add_runtime_dependency 'activesupport', '~> 3.0'
-  gem.add_runtime_dependency 'activemodel', '~> 3.0'
 
   if RUBY_PLATFORM == 'java'
     gem.add_runtime_dependency 'json-jruby', '~> 1.5.0'
